@@ -1,0 +1,12 @@
+title: Yuriy Lesyuk's House
+email: yuriylesyuk@gmail.com
+description: >-
+  YL Github Pages!
+baseurl: /
+url: https://yuriylesyuk.github.io/
+github_username:  yuriylesyuk
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
