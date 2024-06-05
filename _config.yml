@@ -2,7 +2,6 @@ title: Yuriy Lesyuk
 email: yuriylesyuk@gmail.com
 description: >-
   YL Github Pages
-
 github_username:  yuriylesyuk
 
 minimal_mistakes_skin: contrast
@@ -12,6 +11,20 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.26.1
+
+
+# Analytics
+analytics:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-xxxxxxx"
+
+      # Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 include: 
   - _pages
@@ -33,7 +46,7 @@ footer:
       url: "https://github.com/yuriylesyuk"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/yuriylesyuk"
+      url: "https://www.linkedin.com/in/ylesyuk/"
 
 
 defaults:
