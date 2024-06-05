@@ -11,6 +11,3 @@ github_username:  yuriylesyuk
 
 # Build settings
 remote_theme: CloudCannon/edition-jekyll-template
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
