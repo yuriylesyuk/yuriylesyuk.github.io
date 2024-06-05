@@ -38,6 +38,17 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+author:
+  name   : Yuriy Lesyuk
+  avatar : assets/images/yuriy-lesyuk-thumbnail.jpg
+  bio    : "Blogs et al."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/channingwalton"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/yuriylesyuk/"
 
 footer:
   links:
@@ -46,7 +57,7 @@ footer:
       url: "https://github.com/yuriylesyuk"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/ylesyuk/"
+      url: "https://www.linkedin.com/in/yuriylesyuk/"
 
 
 defaults:
@@ -55,14 +66,26 @@ defaults:
       path: ""
       type: posts
     values:
-      sidebar:
-        nav: "posts"
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "posts"
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 
   # _pages
   - scope:
