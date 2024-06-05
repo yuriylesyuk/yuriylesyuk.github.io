@@ -7,3 +7,15 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+posts:
+  - title: Contents
+    children:
+      - title: Articles
+        url: /docs/articles
+      - title: Hints and Tips
+        url: /docs/hints-and-tips
+  - title: Also
+    children: 
+      - title: About
+        url: /about        
