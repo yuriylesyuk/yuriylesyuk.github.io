@@ -1,13 +1,26 @@
-title: Yuriy Lesyuk - GitHub Pages
+title: Yuriy Lesyuk
 email: yuriylesyuk@gmail.com
 description: >-
-  YL Github Pages!
-baseurl: /
-url: https://yuriylesyuk.github.io/
-
-show_full_navigation: true
+  YL Github Pages
 
 github_username:  yuriylesyuk
 
+minimal_mistakes_skin: light
+search: true
+
+
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.26.1
+
+include: 
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
