@@ -1,0 +1,13 @@
+
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Docs"
+    url: /docs/
+    
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Links"
+        url: /docs/links/
