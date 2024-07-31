@@ -25,3 +25,6 @@ https://www.haproxy.com/blog/the-history-of-haproxy
 
 https://devhints.io/tmux
 
+
+
+https://github.com/elinesterov/awesome-spiffe-spire
