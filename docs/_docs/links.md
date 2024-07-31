@@ -26,5 +26,9 @@ https://www.haproxy.com/blog/the-history-of-haproxy
 https://devhints.io/tmux
 
 
+## spiffe/spire: secure production identity framework for everyone; SPIFFE runtime environment
+
 
 https://github.com/elinesterov/awesome-spiffe-spire
+
+https://next.redhat.com/2024/06/27/spiffe-spire-on-red-hat-openshift/
