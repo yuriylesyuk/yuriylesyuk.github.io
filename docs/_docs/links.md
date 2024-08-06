@@ -32,3 +32,8 @@ https://devhints.io/tmux
 https://github.com/elinesterov/awesome-spiffe-spire
 
 https://next.redhat.com/2024/06/27/spiffe-spire-on-red-hat-openshift/
+
+
+## DevOps/Software Engineering
+
+https://abseil.io/resources/swe-book
